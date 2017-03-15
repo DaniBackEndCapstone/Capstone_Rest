@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'capstone_api.apps.CapstoneApiConfig'
+    'capstone_api',
 ]
 
 MIDDLEWARE = [
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'capstone_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django_mongodb_engine',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'my_database',
     }
 }
 

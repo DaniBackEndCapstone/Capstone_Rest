@@ -1,3 +1,4 @@
 from django.contrib import admin
+from capstone_api import StateData
 
-# Register your models here.
+admin.site.register(StateData)

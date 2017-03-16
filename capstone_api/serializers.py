@@ -1,6 +1,6 @@
 # from django.contrib.auth.models import User
 from rest_framework import serializers
-from bangazon_api import models
+from capstone_api import models
 
 class StateDataSerializer(serializers.Serializer):
     """

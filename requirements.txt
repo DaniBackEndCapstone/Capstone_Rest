@@ -1,0 +1,7 @@
+Python==3.6.0
+Django==1.5.11
+Django-nonrel==1.6.11
+#looks like 1.6 is out should I add this?
+django-mongodb-engine==0.6.0
+djangotoolbox==1.8.0
+pymongo==3.4.0p

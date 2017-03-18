@@ -122,18 +122,30 @@ class StateData(models.Model):
         (Wyoming, 'Wyoming'),
     )
 
+    American_Samoa = 'American Samoa'
+    Guam = 'Guam'
+    Northern_Mariana_Islands = 'Northern Mariana Islands'
+    Puerto_Rico = 'Puerto Rico'
+    Virgin_Islands = 'Virgin Islands'
+
+    TERRITORIES = (
+        (American_Samoa, 'American Samoa'),
+        (Guam, 'Guam'),
+        (Northern_Mariana_Islands, 'Northern Mariana Islands'),
+        (Puerto_Rico, 'Puerto Rico'),
+        (Virgin_Islands, 'Virgin Islands'),
+    )
+
     total_male = models.PositiveIntegerField(default=0)
     total_female = models.PositiveIntegerField(default=0)
     total_private = models.PositiveIntegerField(default=0)
     total_local_jails = models.PositiveIntegerField(default=0)
-    total_other_prison = models.PositiveIntegerField(default=0)
+    total_other_prison = models.PositiveIntegerField(default=0, null=True)
     total_non_citizen = models.PositiveIntegerField(default=0)
     total_minor = models.PositiveIntegerField(default=0)
-
-    # Do I want to do race totals?
-
     year = models.IntegerField(choices=YEARS)
-    state = models.CharField(choices=STATES, max_length=100)
+    state = models.CharField(choices=STATES, max_length=100, null=True)
+    territory = models.CharField(choices=TERRITORIES, max_length=100, null=True)
 
     class Meta:
         verbose_name_plural = 'State Data'

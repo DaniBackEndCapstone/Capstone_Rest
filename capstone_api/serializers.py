@@ -2,7 +2,7 @@
 from rest_framework import serializers
 from capstone_api import models
 
-class StateDataSerializer(serializers.Serializer):
+class StateDataSerializer(serializers.HyperlinkedModelSerializer):
     """
     The StateDataSerializer
     Author: Dani Adkins

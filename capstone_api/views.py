@@ -7,5 +7,5 @@ class StateDataViewSet(viewsets.ModelViewSet):
     The StateDataViewSet creates the state data view
     Author: Dani Adkins
     """
-    queryset = models.StateData.objects.all().order_by('-state')
+    queryset = models.StateData.objects.all()
     serializer_class = serializers.StateDataSerializer

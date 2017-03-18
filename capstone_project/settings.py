@@ -35,7 +35,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
     ),
     'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.AllowAny',
     ),
 }
 
@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'corsheaders',
     'capstone_api',
 ]
 
@@ -61,6 +62,26 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CORS_ORIGIN_ALLOW_ALL = False
+
+CORS_ORIGIN_WHITELIST = (
+    'localhost:8000',
+    'localhost:8080',
+    '127.0.0.1:8000',
+    '127.0.0.1:8080'
+)
+
+CORS_URLS_REGEX = r'^.*$'
+
+CORS_ALLOW_METHODS = (
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+)
 
 ROOT_URLCONF = 'capstone_project.urls'
 
@@ -81,21 +102,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'capstone_project.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django_mongodb_engine',
-#         'NAME': 'my_database',
-#         'USER' : '',
-#         'PASSWORD' : '',
-#         'HOST' : '',
-#         'PORT' : '',
-#     }
-# }
 
 DATABASES = {
     'default': {
@@ -141,24 +147,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
-# STATIC_URL = '/static/'
-
-
-# Mongodb settings
-
-# AUTHENTICATION_BACKENDS = (
-#     'mongoengine.django.auth.MongoEngineBackend',
-# )
-
-# MONGO_DATABASE_NAME = 'prod'
-
-
-# MONGOENGINE_USER_DOCUMENT = 'mongoengine.django.auth.User'
-
-# SESSION_ENGINE = 'mongoengine.django.sessions'
-# SESSION_SERIALIZER = 'mongoengine.django.sessions.BSONSerializer'
-
-# from mongoengine import connect
-# connect(MONGO_DATABASE_NAME)
+STATIC_URL = '/static/'
 
 

@@ -1,0 +1,401 @@
+# Admissions And Release Of Prisoners State And Local 2014 2015
+
+## Top
+Bureau of Justice Statistics,,,,,,,,,,,,,,
+File name: p15t07.csv,,,,,,,,,,,,,,
+"Table 7. Admissions and releases of sentenced prisoners under the jurisdiction of state or federal correctional authorities, 2014 and 2015",,,,,,,,,,,,,,
+"Report title: Prisoners in 2015,  NCJ 250229",,,,,,,,,,,,,,
+"Data source: Bureau of Justice Statistics, National Prisoner Statistics, 2015",,,,,,,,,,,,,,
+"Author: E. Ann Carson, Ph.D., BJS Statistician,  Elizabeth Anderson, BJS Intern",,,,,,,,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+"Table 7. Admissions and releases of sentenced prisoners under the jurisdiction of state or federal correctional authorities, 2014 and 2015",,,,,,,,,,,,,,
+
+## Bottom
+"Note: Jurisdiction refers to the legal authority of state or federal correctional officials over a prisoner, regardless of where the prisoner is held. Counts are based on prisoners admitted to or released from state or federal correctional authority with a sentence of more than 1 year. ",,,,,,,,,,,,,,
+: Not calculated.,,,,,,,,,,,,,,
+/Not reported.,,,,,,,,,,,,,,
+"a/Excludes transfers, escapes, and those absent without leave (AWOL), and includes other conditional release violators, returns from appeal or bond, and other admissions. ",,,,,,,,,,,,,,
+See Methodology.,,,,,,,,,,,,,,
+"b/Excludes transfers, escapes, and those AWOL, and includes deaths, releases to appeal or bond, and other releases. See Methodology.",,,,,,,,,,,,,,
+c/U.S. and state totals by type of admission exclude counts for Alaska because the state was unable to report detailed information on admission type. See Jurisdiction notes.   ,,,,,,,,,,,,,,
+"d/Includes all conditional release violators returned to prison from post-custody community supervision, including parole and probation, for either violations of conditions of release or for new crimes.",,,,,,,,,,,,,,
+"e/U.S. and state totals by type of release exclude counts for California, since the state was unable to report detailed information on releases. See Jurisdiction notes.",,,,,,,,,,,,,,
+"f/Includes expirations of sentence, commutations, and other unconditional releases.",,,,,,,,,,,,,,
+"g/Federal data include prisoners held in nonsecure, privately operated community corrections facilities and juveniles held in contract facilities. The Federal Bureau of Prisons reports prison releases as unconditional even though prisoners may serve post-custody community supervision.",,,,,,,,,,,,,,
+"h/Includes releases to probation, supervised mandatory releases, and other unspecified conditional releases.",,,,,,,,,,,,,,
+"i/U.S. total and state estimates include imputed counts for Alaska, Nevada, Oregon, and Vermont, which did not submit 2015 data to National Prisoner Statistics (NPS) on admissions and releases. See Methodology.",,,,,,,,,,,,,,
+j/Prisons and jails form one integrated system. Data include total jail and prison populations.,,,,,,,,,,,,,,
+k/Alaska did not submit 2014 or 2015 NPS admissions or release data. Counts were imputed. See Methodology.,,,,,,,,,,,,,,
+l/Releases include offenders who received a combined sentence of prison and probation of more than 1 year.,,,,,,,,,,,,,,
+m/Illinois could only provide data for calendar year 2015 through November. See Jurisdiction notes.,,,,,,,,,,,,,,
+n/State submitted updated 2014 admission counts.,,,,,,,,,,,,,,
+o/Counts for 2015 admissions and releases are not comparable to prior years due to a change in reporting methodology.,,,,,,,,,,,,,,
+p/Counts for 2015 admissions are not comparable to prior years due to a change in reporting methodology.,,,,,,,,,,,,,,
+q/State did not submit 2015 NPS admissions or release data. Total and detailed types of admissions and releases were imputed and included in U.S. and state totals.  See Methodology.,,,,,,,,,,,,,,
+"r/Includes all admissions and releases from state prison, regardless of sentence length.",,,,,,,,,,,,,,
+"s/State did not provide 2015 data, but admission and release totals were obtained from a department of corrections report. Detailed admission and release types were imputed and included in U.S. and state totals. See Methodology.",,,,,,,,,,,,,,
+"t/Estimates for prison releases include all prisoners, regardless of sentence length.",,,,,,,,,,,,,,
+"Source: Bureau of Justice Statistics, National Prisoner Statistics, 2014_2015.",,,,,,,,,,,,,,
+
+
+
+# Estimated Number And Rate Of Persons Supervised By US Facilities 2015
+
+## Top
+Bureau of Justice Statistics,,,,,,,,,,
+File name:cpus15at01.csv,,,,,,,,,,
+"Appendix Table 1. Estimated number and rate of persons supervised by U.S. adult correctional systems, by jurisdiction and correctional status, 2015",,,,,,,,,,
+"Report title: Correctional Populations in the United States 2015,  NCJ 250374",,,,,,,,,,
+"Data source: Bureau of Justice Statistics, Annual Surveys of Probation and Parole, Deaths in Custody Reporting Program, and National Prisoner Statistics Program, 2015; and U.S. Census Bureau, unpublished U.S. restident population estimates within jurisdiction on January 1, 2016. ",,,,,,,,,,
+"Author: Danielle Kaeble and Lauren Glaze, BJS Statisticians",,,,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,,,
+,,,,,,,,,,
+"Appendix Table 1. Estimated number and rate of persons supervised by U.S. adult correctional systems, by jurisdiction and correctional status, 2015",,,,,,,,,,
+
+## Bottom
+"Note: Counts were rounded to the nearest 100, and rates were rounded to the nearest 10. Detail may not sum to total due to rounding and because offenders with multiple correctional statuses were excluded from totals. Counts include estimates for nonresponding jurisdictions. See Methodology. ",,,,,,,,,,
+"a/Excludes, by jurisdiction, an estimated 81,200 prisoners held in jail, 28,200 probationers in prison, 24,400 probationers in jail, 19,600 parolees in jail, 11,200 parolees in prison, and 9,400 parolees on probation. See table 5. ",,,,,,,,,,
+"b/Rates were computed using estimates of the U.S adult resident population of persons age 18 or older and persons of all ages on January 1, 2016, within jurisdiction.",,,,,,,,,,
+"c/Excludes, by jurisdiction, an estimated 9,400 parolees on probation. See table 5. ",,,,,,,,,,
+"d/Excludes, by jurisdiction, an estimated 81,200 prisoners held in jail. See table 5. ",,,,,,,,,,
+"e/Total correctional population and total number in prison and jail include local jail counts that are based on December 31, 2015 in order to produce jurisdiction-level estimates. For this reason, excluding appendix tables 2, 3, and 4, the estimates in this table differ from the national estimates presented in other tables and figures in this report. See Methodology. ",,,,,,,,,,
+"f/Excludes about 11,000 inmates that were not held in locally operated jails but rather facilities that were operated by the Federal Bureau of Prisons and functioned as jails. ",,,,,,,,,,
+"g/Total correctional population and community supervision population estimates include misdemeanant probation cases, not individuals, supervised by private companies and may overstate the number of offenders under supervision.",,,,,,,,,,
+"Sources: Bureau of Justice Statistics, Annual Surveys of Probation and Parole, Deaths in Custody Reporting Program, and National Prisoner Statistics Program, 2015; and U.S. Census Bureau, unpublished U.S. restident population estimates within jurisdiction on January 1, 2016. ",,,,,,,,,,
+
+
+
+# NonCitizen Prisoners And Prisoners Age 17 And Under By Sex 2015
+
+## Top
+Bureau of Justice Statistics,,,,,,,,
+File name: p15at09.csv,,,,,,,,
+"Appendix Table 9. Noncitizen prisoners and prisoners age 17 or younger under the jurisdiction of state or federal correctional authorities, by sex, December 31, 2015",,,,,,,,
+"Report title: Prisoners in 2015,  NCJ 250229",,,,,,,,
+"Data source: Bureau of Justice Statistics, National Prisoner Statistics, 2015",,,,,,,,
+"Author: E. Ann Carson, Ph.D., BJS Statistician,  Elizabeth Anderson, BJS Intern",,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,
+,,,,,,,,
+"Appendix Table 9. Noncitizen prisoners and prisoners age 17 or younger under the jurisdiction of state or federal correctional authorities, by sex, December 31, 2015",,,,,,,,
+
+## Bottom
+"Note: Jurisdiction refers to the legal authority of state or federal correctional officials over a prisoner, regardless of where the prisoner is held. The definition of non-U.S. citizen varies across jurisdictions. Interpret data with caution. See Methodology.",,,,,,,,
+/Not reported.,,,,,,,,
+"a/Unless otherwise noted, noncitizens are identified by individual jurisdictions as persons with current citizenship of a country other than the United States as of December 31, 2015.",,,,,,,,
+b/Total U.S. and state counts of noncitizen prisoners for 2015 will be lower than expected due to the exclusion of California data. California was unable to report the number of noncitizen prisoners in 2015.,,,,,,,,
+c/The Federal Bureau of Prisons holds prisoners age 17 or younger in private contract facilities; 64 such prisoners were housed in contract facilities in 2015.,,,,,,,,
+"d/Federal counts include only those persons held in Bureau of Prisons facilities and do not include persons held in detention facilities specific to U.S. Citizenship and Immigration Services, U.S. Immigration and Customs Enforcement, or U.S. Customs and Border Protection.",,,,,,,,
+e/Prisons and jails form one integrated system. Data include total jail and prison populations.,,,,,,,,
+f/Alaska has not submitted 2015 data to National Prisoner Statistics (NPS) for noncitizens or persons age 17 or younger since 2012.,,,,,,,,
+g/Non-U.S. citizens are defined as foreign-born.,,,,,,,,
+h/Citizenship based on prisoner self-report.,,,,,,,,
+i/State did not submit 2015 NPS data for noncitizens or persons age 17 or younger. Data are from 2014.,,,,,,,,
+"Source: Bureau of Justice Statistics, National Prisoner Statistics, 2015.",,,,,,,,
+
+
+
+# Number Of Persons Incarcerated By Other Adult Correctional Facilities 2015
+
+## Top
+Bureau of Justice Statistics,,,,,,,,,
+File name:cpus15at05.csv,,,,,,,,,
+"Appendix Table 5. Number of persons incarcerated by other adult correctional systems, 2000, 2010, and 2014_2015",,,,,,,,,
+"Report title: Correctional Populations in the United States 2015,  NCJ 250374",,,,,,,,,
+"Data source: Bureau of Justice Statistics, National Prisoner Statistics program, and Survey of Jails in Indian Country, 2000, 2010, and 2014_2015.",,,,,,,,,
+"Author: Danielle Kaeble and Lauren Glaze, BJS Statisticians",,,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,,
+,,,,,,,,,
+"Appendix Table 5. Number of persons incarcerated by other adult correctional systems, 2000, 2010, and 2014_2015",,,,,,,,,
+,,,,,,,,,
+
+## Bottom
+"Note: Estimates were rounded to the nearest 100 and are for December 31. Total excludes persons held in local jails, under the jurisdiction of state or federal prisons, ",,,,,,,,,
+"in U.S. Immigration and Customs Enforcement facilities, or held in juvenile facilities. ",,,,,,,,,
+"a/The 2014 and 2015 totals include population counts that were estimated for some territories due to nonresponse. See Prisoners in 2015 (NCJ 250229, BJS web, December 2016) for detailed statistics of this population. ",,,,,,,,,
+"b/See Prisoners in 2015 (NCJ 250229, BJS web, December 2016) for detailed statistics of this population. ",,,,,,,,,
+"c/Population counts are for the last weekday in June of each year. See Jails in Indian Country, 2015 (NCJ 250117, BJS web, November 2016) for detailed statistics of this population.",,,,,,,,,
+"Sources: Bureau of Justice Statistics, National Prisoner Statistics program, and Survey of Jails in Indian Country, 2000, 2010, and 2014_2015.",,,,,,,,,
+
+
+
+# Number Persons Correctional Facility By Sex And Status
+
+## Top
+Bureau of Justice Statistics,,,,,,,,,,,
+File name:cpus15at04.csv,,,,,,,,,,,
+"Appendix Table 4. Number and rate of persons supervised by U.S. adult correctional systems, by sex and correctional status, 2014",,,,,,,,,,,
+"Report title: Correctional Populations in the United States 2015,  NCJ 250374",,,,,,,,,,,
+"Data source: Bureau of Justice Statistics, Annual Probation Survey, Annual Parole Survey, Deaths in Custody Reporting Program, and National Prisoner Statistics program, 2014; and U.S. Census Bureau, unpublished U.S. resident population estimates within jurisdiction, by sex, on January 1, 2015.",,,,,,,,,,,
+"Author: Danielle Kaeble and Lauren Glaze, BJS Statisticians",,,,,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,,,,
+,,,,,,,,,,,
+"Appendix Table 4. Number and rate of persons supervised by U.S. adult correctional systems, by sex and correctional status, 2014",,,,,,,,,,,
+
+## Bottom
+"Note: Counts were rounded to the nearest 100, and rates were rounded to the nearest 10. Detail may not sum to total due to rounding and because offenders with multiple correctional statuses were excluded from totals. Counts include estimates for nonresponding jurisdictions. See Methodology. ",,,,,,,,,,,
+"a/Rates were computed using the U.S state resident population of all ages, by sex. U.S. resident populations of persons age 18 or older were not available by sex at the time this report was published. For this reason, jurisdiction-level rates in other tables of this report may not be comparable to the rates in this table.",,,,,,,,,,,
+"b/Total correctional population and total number in prison and jail include local jail counts that are based on December 31, 2015 in order to produce jurisdiction-level estimates. For this reason, excluding appendix tables 1, 2, and 3, the estimates in this table differ from the national estimates presented in other tables and figures in this report. See Methodology.",,,,,,,,,,,
+"c/Excludes, by jurisdiction, an estimated 12,900 parolees on probation. See table 5.",,,,,,,,,,,
+"d/Excludes, by jurisdiction, an estimated 81,700 prisoners held in local jails. See table 5.",,,,,,,,,,,
+"e/Excludes about 11,000 inmates that were not held in locally operated jails but rather facilities that were operated by the Federal Bureau of Prisons and functioned as jails. ",,,,,,,,,,,
+f/Includes estimates due to nonresponse for sex. See Methodology.,,,,,,,,,,,
+"g/Estimates include misdemeanant probation cases, not individuals, supervised by private companies and may overstate the number of offenders under supervision.",,,,,,,,,,,
+"Sources: Bureau of Justice Statistics, Annual Probation Survey, Annual Parole Survey, Deaths in Custody Reporting Program, and National Prisoner Statistics program, 2014; and U.S. Census Bureau, unpublished U.S. resident population estimates within jurisdiction, by sex, on January 1, 2015.",,,,,,,,,,,
+
+
+
+# PersonsHeldInCustodyFederalStateLocal
+
+## Top
+Bureau of Justice Statistics,,,,,,,,,,
+File name:cpus15at06.csv,,,,,,,,,,
+"Appendix Table 6. Persons held in custody in state or federal prisons or in local jails, 2000, 2010, and 2014_2015",,,,,,,,,,
+"Report title: Correctional Populations in the United States 2015,  NCJ 250374",,,,,,,,,,
+"Data source: Bureau of Justice Statistics, Annual Survey of Jails, and National Prisoner Statistics program, 2000, 2010, and 2014_2015; and U.S. Census bureau, postcensal estimated restident populations for January 1 of the following year, 2001, 2011, 2015, and 2016. ",,,,,,,,,,
+"Author: Danielle Kaeble and Lauren Glaze, BJS Statisticians",,,,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,,,
+,,,,,,,,,,
+"Appendix Table 6. Persons held in custody in state or federal prisons or in local jails, 2000, 2010, and 2014_2015",,,,,,,,,,
+,,,,,,,,,,
+,,,Number,,,,,,,
+
+## Bottom
+"Note: Estimates may not be comparable to previously published BJS reports due to updated information. Counts were rounded to the nearest 100 and include estimates for nonresponding jurisdictions; see Methodology. Rates were rounded to the nearest 10. Detail may not to sum to total due to rounding. Prison counts are for December 31; jail counts are for the last weekday in June. Total includes all persons held in local jails, state or federal prisons, or privately operated facilities. It does not include persons held in U.S. territories (appendix table 5), military facilities (appendix table 5), in U.S. Immigration and Customs Enforcement facilities, in jails in Indian country (appendix table 5), or in juvenile facilities. See Methodology for sources of incarceration data and Terms and definitions for an explanation of the differences between the custody prison population reported in this table only and the jurisdiction prison population reported in all other tables and figures of this report.",,,,,,,,,,
+-- Less than 0.05%.,,,,,,,,,,
+"a/After 2001, responsibility for sentenced prisoners from the District of Columbia was transferred to the Federal Bureau of Prisons.",,,,,,,,,,
+"b/Nonsecure, privately operated community corrections centers. ",,,,,,,,,,
+"c/Excludes prisoners held in local jails in Georgia for 2010, 2014, and 2015 to avoid double counting.",,,,,,,,,,
+"d/The total number in the custody of local jails, state or federal prisons, or privately operated facilities within the year per 100,000 U.S. residents of all ages. ",,,,,,,,,,
+"e/The total number in custody per 100,000 U.S. residents age 18 or older. ",,,,,,,,,,
+"Sources: Bureau of Justice Statistics, Annual Survey of Jails, and National Prisoner Statistics program, 2000, 2010, and 2014_2015; and U.S. Census bureau, postcensal estimated restident populations for January 1 of the following year, 2001, 2011, 2015, and 2016. ",,,,,,,,,,
+
+
+
+# Persons In Correctional Facilities By Sex And Jurisdiction 2014 2015
+
+## Top
+Bureau of Justice Statistics,,,,,,,,,,,
+File name:cpus15at02.csv,,,,,,,,,,,
+"Appendix Table 2. Number and rate of persons supervised by U.S. adult correctional systems, by sex and jurisdiction, 2014 and 2015",,,,,,,,,,,
+"Report title: Correctional Populations in the United States 2015,  NCJ 250374",,,,,,,,,,,
+"Data source: Bureau of Justice Statistics,  Annual Probation Survey, Annual Parole Survey, Deaths in Custody Reporting Program, Deaths in Custody Reporting Program„Annual Summary on Inmates under Jail Jurisdiction, and National Prisoner Statistics program, 2014 and 2015, and U.S. Census Bureau, unpublished U.S. resident population estimates within jurisdiction, by sex, on January 1, 2015 and 2016.",,,,,,,,,,,
+"Author: Danielle Kaeble and Lauren Glaze, BJS Statisticians",,,,,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,,,,
+,,,,,,,,,,,
+"Appendix Table 2. Number and rate of persons supervised by U.S. adult correctional systems, by sex and jurisdiction, 2014 and 2015",,,,,,,,,,,
+
+## Bottom
+"Note: Counts were rounded to the nearest 100, and rates were rounded to the nearest 10. Detail may not sum to total due to rounding and because offenders with multiple correctional statuses were excluded from totals. Counts include estimates for nonresponding jurisdictions. See Methodology. ",,,,,,,,,,,
+"a/Rates were computed using the U.S state resident population of all ages, by sex. U.S. resident populations of persons age 18 or older were not available by sex at the time this report was published. For this reason, jurisdiction-level rates in other tables of this report may not be comparable to this table.",,,,,,,,,,,
+"b/Excludes, by jurisdiction, an estimated 155,100 males and 18,900 females in 2015 and an estimated 154,100 males and 16,700 females in 2014 with multiple correctional statuses. See Methodology.",,,,,,,,,,,
+"c/Includes local jail counts that are based on December 31, 2015, to produce jurisdiction-level estimates. For this reason, excluding appendix tables 1, 3, and 4, the estimates in this table differ from the national estimates presented in other tables and figures in this report. See Methodology. ",,,,,,,,,,,
+"d/Excludes about 11,000 inmates that were not held in locally operated jails but rather facilities that were operated by the Federal Bureau of Prisons and functioned as jails. ",,,,,,,,,,,
+e/Includes estimates due to nonresponse for sex. See Methodology.,,,,,,,,,,,
+"f/Estimates include misdemeanant probation cases, not individuals, supervised by private companies and may overstate the number of offenders under supervision.",,,,,,,,,,,
+"Sources: Bureau of Justice Statistics,  Annual Probation Survey, Annual Parole Survey, Deaths in Custody Reporting Program, Deaths in Custody Reporting Program„Annual Summary on Inmates under Jail Jurisdiction, and National Prisoner Statistics program, 2014 and 2015, and U.S. Census Bureau, unpublished U.S. resident population estimates within jurisdiction, by sex, on January 1, 2015 and 2016.",,,,,,,,,,,
+
+
+
+# Prisoners Under Jurisdiction Of State Or Federal By Race 2015
+
+## Top
+
+Bureau of Justice Statistics,,,,,,,,,,,
+File name: p15at03.csv,,,,,,,,,,,
+"Appendix Table 3. Prisoners under the jurisdiction of state or federal correctional authorities, by race and Hispanic origin, December 31, 2015",,,,,,,,,,,
+"Report title: Prisoners in 2015,  NCJ 250229",,,,,,,,,,,
+"Data source: Bureau of Justice Statistics, National Prisoner Statistics, 2015",,,,,,,,,,,
+"Author: E. Ann Carson, Ph.D., BJS Statistician,  Elizabeth Anderson, BJS Intern",,,,,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,,,,
+,,,,,,,,,,,
+"Appendix Table 3. Prisoners under the jurisdiction of state or federal correctional authorities, by race and Hispanic origin, December 31, 2015",,,,,,,,,,,
+
+## Bottom
+"Note: Jurisdiction refers to the legal authority of state or federal correctional officials over a prisoner, regardless of where the prisoner is held or length of sentence. Federal data include prisoners held in nonsecure, privately operated community corrections facilities and juveniles held in contract facilities. Estimates provided by state and federal departments of correctionsÍ administrative record systems, and may not reflect prisonersÍ self-identification of race or Hispanic origin. State, federal, and national totals by race and Hispanic origin will differ from other tables in this report due to adjustments made by BJS to correct for differences between administrative records and prisoner self-report of racial and ethnic identity.",,,,,,,,,,,
+~Not applicable. State does not track this race or Hispanic origin.,,,,,,,,,,,
+/Not reported.,,,,,,,,,,,
+a/Excludes persons of Hispanic or Latino origin.,,,,,,,,,,,
+b/Prisoners of Hispanic origin are included in the individual racial categories.,,,,,,,,,,,
+"c/Asian and Native Hawaiian, and Other Pacific Islanders combined in a single category and reported as Asian.",,,,,,,,,,,
+d/Number of persons of Hispanic origin may be an undercount due to ongoing changes in information systems.,,,,,,,,,,,
+e/State did not submit 2015 data to National Prisoner Statistics on race or Hispanic origin. Counts were imputed. See Methodology.,,,,,,,,,,,
+"Source: Bureau of Justice Statistics, National Prisoner Statistics, 2015.",,,,,,,,,,,
+
+
+
+# Prisoners Under Jurisdiction Of State And Private Prisions 2014 2015
+
+## Top
+Bureau of Justice Statistics,,,,,,,,,,,,,
+File name: p15at02.csv,,,,,,,,,,,,,
+"Appendix Table 2. Prisoners under the jurisdiction of state or federal correctional authorities held in the custody of private prisons and local jails, December 31, 2014 and 2015",,,,,,,,,,,,,
+"Report title: Prisoners in 2015, NCJ 250229",,,,,,,,,,,,,
+"Data source: Bureau of Justice Statistics, National Prisoner Statistics, 2014-2015",,,,,,,,,,,,,
+"Author: E. Ann Carson, Ph.D., BJS Statistician,  Elizabeth Anderson, BJS Intern",,,,,,,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,,,,,,
+Date of version: 12/20/2016,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+"Appendix Table 2. Prisoners under the jurisdiction of state or federal correctional authorities held in the custody of private prisons and local jails, December 31, 2014 and 2015",,,,,,,,,,,,,
+
+## Bottom
+"Note: Jurisdiction refers to the legal authority of state or federal correctional officials over a prisoner, regardless of where the prisoner is held. Totals include imputed counts for Nevada, Oregon, and Vermont, which did not submit these data to the 2015 National Prisoner Statistics.",,,,,,,,,,,,,
+/Not reported.,,,,,,,,,,,,,
+: Not calculated.,,,,,,,,,,,,,
+~Not applicable.,,,,,,,,,,,,,
+a/Includes prisoners held in the jurisdictionÍs own private facilities and private facilities in another state.,,,,,,,,,,,,,
+"b/Includes federal prisoners held in nonsecure, privately operated facilities (9,153) and prisoners on home confinement (3,122). Excludes persons held in immigration detention facilities pending adjudication.",,,,,,,,,,,,,
+c/Prisons and jails form one integrated system. Data include total jail and prison populations.,,,,,,,,,,,,,
+"Source: Bureau of Justice Statistics, National Prisoner Statistics, 2014_2015.",,,,,,,,,,,,,
+
+
+
+# Prisoners Under Jurisdiction Of US Territories And Commonwealths 2015
+
+## Top
+Bureau of Justice Statistics,,,,,,,,,
+File name: p15at10.csv,,,,,,,,,
+"Appendix Table 10. Prisoners under the jurisdiction or in the custody of correctional authorities in U.S. territories and commonwealths, by prison facility capacity, December 31, 2015",,,,,,,,,
+"Report title: Prisoners in 2015,  NCJ 250229",,,,,,,,,
+"Data source: Bureau of Justice Statistics, National Prisoner Statistics, 2015",,,,,,,,,
+"Author: E. Ann Carson, Ph.D., BJS Statistician,  Elizabeth Anderson, BJS Intern",,,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,,
+,,,,,,,,,
+"Appendix Table 10. Prisoners under the jurisdiction or in the custody of correctional authorities in U.S. territories and commonwealths, by prison facility capacity, December 31, 2015",,,,,,,,,
+
+## Bottom
+"Note: Jurisdiction refers to the legal authority of state or federal correctional officials over a prisoner, regardless of where the prisoner is held. Custody refers to the physical location where the prisoner is held.",,,,,,,,,
+ƒNot available. Specific type of capacity is not measured by territory.,,,,,,,,,
+/Not reported.,,,,,,,,,
+a/Does not include counts for American Samoa.,,,,,,,,,
+b/American Samoa has not submitted data to National Prisoner Statistics (NPS) since 2011. The data presented here were located in the 2013 American Samoa Statistical Yearbook (http://doc.as.gov/wp-content/uploads/2011/06/2013-Statistical-Yearbook-Final-Draft.pdf) and represent the number of persons in custody as of December 2013. ,,,,,,,,,
+c/Guam did not submit 2015 NPS data. Counts were imputed.,,,,,,,,,
+d/The U.S. Virigin Islands did not submit 2014 NPS data and had inconsistent 2013 data.  Data used are from 2012.,,,,,,,,,
+"Source: Bureau of Justice Statistics, National Prisoner Statistics, 2015.",,,,,,,,,
+
+
+
+# Prison Facility Capacity Custody Population And Percent Capacity 2015
+
+## Top
+Bureau of Justice Statistics,,,,,,,,
+File name:p15at01.csv,,,,,,,,
+"Appendix Table 1. Prison facility capacity, custody population, and percent capacity, December 31, 2015",,,,,,,,
+"Report title: Prisoners in 2015,  NCJ 250229",,,,,,,,
+"Data source: Bureau of Justice Statistics, National Prisoner Statistics, 2015",,,,,,,,
+"Author: E. Ann Carson, Ph.D., BJS Statistician,  Elizabeth Anderson, BJS Intern",,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,
+,,,,,,,,
+"Appendix Table 1. Prison facility capacity, custody population, and percent capacity, December 31, 2015",,,,,,,,
+
+## Bottom
+"Note: Jurisdiction refers to the legal authority of state or federal correctional officials over a prisoner, regardless of where the prisoner is held.",,,,,,,,
+ƒNot available. Specific type of capacity is not measured by state.,,,,,,,,
+/Not reported.,,,,,,,,
+"a/Counts are based on prisoners with sentences of more than 1 year. Excludes prisoners held in local jails, other states, or private facilities unless otherwise stated. Lowest capacity represents the minimum capacity estimate submitted by the jurisdiction, while highest capacity represents the maximum capacity estimate. When a jurisdiction could only provide a single capacity estimate, it was used as both lowest and highest capacities.",,,,,,,,
+"b/Due to differences in the dates when data were extracted, the federal custody count reported for the calculation of capacity includes 258 prisoners, compared to the yearend custody reported in National Prisoner Statistics (NPS) data.",,,,,,,,
+c/State defines capacity differently than BJS. See Jurisdiction notes.,,,,,,,,
+d/State did not submit 2015 capacity data to NPS. Counts were imputed. See Methodology.,,,,,,,,
+e/Private facilities included in capacity and custody counts.,,,,,,,,
+f/Counts for 2015 are not comparable to prior years due to a change in reporting methodology. See Jurisdiction notes.,,,,,,,,
+g/Both capacity and custody counts exclude prisoners in community-based work release facilities.,,,,,,,,
+h/Capacity estimate includes some beds used for pretrial prisoners not reflected in custody count.,,,,,,,,
+i/State did not submit 2015 NPS custody or capacity data. Custody count was imputed. See Methodology.,,,,,,,,
+j/State did not submit 2015 NPS capacity data. Data are from 2014 or state sources. See Methodology.,,,,,,,,
+"Source: Bureau of Justice Statistics, National Prisoner Statistics, 2015.",,,,,,,,
+
+
+
+# Prison Facility Capacity Percent Capacity 2015
+
+## Top
+Bureau of Justice Statistics,,,,,,,,
+File name:p15at01.csv,,,,,,,,
+"Appendix Table 1. Prison facility capacity, custody population, and percent capacity, December 31, 2015",,,,,,,,
+"Report title: Prisoners in 2015,  NCJ 250229",,,,,,,,
+"Data source: Bureau of Justice Statistics, National Prisoner Statistics, 2015",,,,,,,,
+"Author: E. Ann Carson, Ph.D., BJS Statistician,  Elizabeth Anderson, BJS Intern",,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,
+,,,,,,,,
+"Appendix Table 1. Prison facility capacity, custody population, and percent capacity, December 31, 2015",,,,,,,,
+
+## Bottom
+"Note: Jurisdiction refers to the legal authority of state or federal correctional officials over a prisoner, regardless of where the prisoner is held.",,,,,,,,
+ƒNot available. Specific type of capacity is not measured by state.,,,,,,,,
+/Not reported.,,,,,,,,
+"a/Counts are based on prisoners with sentences of more than 1 year. Excludes prisoners held in local jails, other states, or private facilities unless otherwise stated. Lowest capacity represents the minimum capacity estimate submitted by the jurisdiction, while highest capacity represents the maximum capacity estimate. When a jurisdiction could only provide a single capacity estimate, it was used as both lowest and highest capacities.",,,,,,,,
+"b/Due to differences in the dates when data were extracted, the federal custody count reported for the calculation of capacity includes 258 prisoners, compared to the yearend custody reported in National Prisoner Statistics (NPS) data.",,,,,,,,
+c/State defines capacity differently than BJS. See Jurisdiction notes.,,,,,,,,
+d/State did not submit 2015 capacity data to NPS. Counts were imputed. See Methodology.,,,,,,,,
+e/Private facilities included in capacity and custody counts.,,,,,,,,
+f/Counts for 2015 are not comparable to prior years due to a change in reporting methodology. See Jurisdiction notes.,,,,,,,,
+g/Both capacity and custody counts exclude prisoners in community-based work release facilities.,,,,,,,,
+h/Capacity estimate includes some beds used for pretrial prisoners not reflected in custody count.,,,,,,,,
+i/State did not submit 2015 NPS custody or capacity data. Custody count was imputed. See Methodology.,,,,,,,,
+j/State did not submit 2015 NPS capacity data. Data are from 2014 or state sources. See Methodology.,,,,,,,,
+"Source: Bureau of Justice Statistics, National Prisoner Statistics, 2015.",,,,,,,,
+
+
+
+# Sentenced Prisoners Under Jurisdiction Of Authority By Sex 2014 2015
+
+## Top
+Bureau of Justice Statistics,,,,,,,,,,,,,,
+File name: p15t04.csv,,,,,,,,,,,,,,
+"Table 4. Sentenced prisoners under the jurisdiction of state or federal correctional authorities, by sex, December 31, 2014 and 2015",,,,,,,,,,,,,,
+"Report title: Prisoners in 2015,  NCJ 250229",,,,,,,,,,,,,,
+"Data source: Bureau of Justice Statistics, National Prisoner Statistics, 2014-2015",,,,,,,,,,,,,,
+"Author: E. Ann Carson, Ph.D., BJS Statistician,  Elizabeth Anderson, BJS Intern",,,,,,,,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+"Table 4. Sentenced prisoners under the jurisdiction of state or federal correctional authorities, by sex, December 31, 2014 and 2015",,,,,,,,,,,,,,
+
+## Bottom
+"Note: Jurisdiction refers to the legal authority of state or federal correctional officials over a prisoner, regardless of where the prisoner is held. Counts are based on prisoners with sentences of more than 1 year.",,,,,,,,,,,,,,
+ : Not calculated.,,,,,,,,,,,,,,
+"a/Total and state estimates include imputed counts for Nevada and Oregon, which did not submit 2015 data to National Prisoner Statistics (NPS). See Methodology.",,,,,,,,,,,,,,
+b/Includes prisoners held in nonsecure privately operated community corrections facilities and juveniles held in contract facilities.,,,,,,,,,,,,,,
+c/State submitted updated 2014 population counts.,,,,,,,,,,,,,,
+d/Prisons and jails form one integrated system. Data include total jail and prison populations.,,,,,,,,,,,,,,
+e/Counts from 2015 are not comparable to counts from prior years due to a change in reporting methodology. See Jurisdiction notes.,,,,,,,,,,,,,,
+f/State did not submit 2015 data to NPS. Counts were imputed. See Methodology.,,,,,,,,,,,,,,
+"Source: Bureau of Justice Statistics, National Prisoner Statistics, 2014_2015.",,,,,,,,,,,,,,
+
+
+
+# TotalPrisonPopByState
+
+## Top
+Bureau of Justice Statistics,,,,,,,,,,,
+File name:cpus15at03.csv,,,,,,,,,,,
+"Appendix Table 3. Number and rate of persons supervised by U.S. adult correctional systems, by sex, correctional status, and jurisdiction, 2015",,,,,,,,,,,
+"Report title: Correctional Populations in the United States 2015,  NCJ 250374",,,,,,,,,,,
+"Data source: Bureau of Justice Statistics, Annual Probation Survey, Annual Parole Survey, Deaths in Custody Reporting Program, and National Prisoner Statistics program, 2015; and U.S. Census Bureau, unpublished U.S. resident population estimates within jurisdiction, by sex, on January 1, 2016.",,,,,,,,,,,
+"Author: Danielle Kaeble and Lauren Glaze, BJS Statisticians",,,,,,,,,,,
+Refer questions to: askbjs@usdoj.gov (202) 307-0765,,,,,,,,,,,
+Date of version: 12/29/2016,,,,,,,,,,,
+,,,,,,,,,,,
+"Appendix Table 3. Number and rate of persons supervised by U.S. adult correctional systems, by sex, correctional status, and jurisdiction, 2015",,,,,,,,,,,
+
+## Bottom
+"Note: Counts were rounded to the nearest 100, and rates were rounded to the nearest 10. Detail may not sum to total due to rounding and because offenders with multiple correctional statuses were excluded from totals. Counts include estimates for nonresponding jurisdictions. See Methodology. ",,,,,,,,,,,
+"a/Rates were computed using the U.S state resident population of all ages, by sex. U.S. resident populations of persons age 18 or older were not available by sex at the time this report was published. For this reason, jurisdiction-level rates in other tables of this report may not be comparable to the rates in this table.",,,,,,,,,,,
+"b/Total correctional population and total number in prison and jail include local jail counts that are based on December 31, 2015 in order to produce jurisdiction-level estimates. For this reason, excluding appendix tables 1, 2, and 4, the estimates in this table differ from the national estimates presented in other tables and figures in this report. See Methodology.",,,,,,,,,,,
+"c/Excludes, by jurisdiction, an estimated 9,400 parolees on probation. See table 5. ",,,,,,,,,,,
+"d/Excludes, by jurisdiction, an estimated 81,200 prisoners held in local jails. See table 5.",,,,,,,,,,,
+"e/Excludes about 11,000 inmates that were not held in locally operated jails but rather facilities that were operated by the Federal Bureau of Prisons and functioned as jails. ",,,,,,,,,,,
+f/Includes estimates due to nonresponse for sex. See Methodology.,,,,,,,,,,,
+"g/Estimates include misdemeanant probation cases, not individuals, supervised by private companies and may overstate the number of offenders under supervision.",,,,,,,,,,,
+"Sources: Bureau of Justice Statistics, Annual Probation Survey, Annual Parole Survey, Deaths in Custody Reporting Program, and National Prisoner Statistics program, 2015; and U.S. Census Bureau, unpublished U.S. resident population estimates within jurisdiction, by sex, on January 1, 2016.",,,,,,,,,,,

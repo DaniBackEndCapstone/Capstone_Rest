@@ -27,9 +27,9 @@ if __name__ == '__main__':
         # print(state, total_pop_incarcerated_per_one_hundred_thou_residents_all)
 
         StateData.objects.create(
-            state = row[1],
-            total_correction_pop = row[2],
-            total_pop_incarcerated = row[8],
-            total_correction_pop_per_one_hundred_thou_residents_all = row[4],
-            total_pop_incarcerated_per_one_hundred_thou_residents_all = row[10]
+            state=row[1],
+            total_correction_pop=row[2],
+            total_pop_incarcerated=row[8],
+            total_correction_pop_per_one_hundred_thou_residents_all=row[4],
+            total_pop_incarcerated_per_one_hundred_thou_residents_all=row[10]
         )

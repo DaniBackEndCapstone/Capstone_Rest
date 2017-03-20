@@ -168,8 +168,8 @@ class StateData(models.Model):
     total_correction_pop = models.PositiveIntegerField(blank=True, null=True)
     total_pop_inacrcerated = models.PositiveIntegerField(blank=True, null=True)
 
-    total_correction_pop_per_one_hundred_thou_residents_all(blank=True, null=True)
-    total_pop_incarcerated_per_one_hundred_thou_residents_all(blank=True, null=True)
+    total_correction_pop_per_one_hundred_thou_residents_all = models.PositiveIntegerField(blank=True, null=True)
+    total_pop_incarcerated_per_one_hundred_thou_residents_all = models.PositiveIntegerField(blank=True, null=True)
 
 
     class Meta:
@@ -178,9 +178,6 @@ class StateData(models.Model):
     def __str__(self):
         return '{} {}'.format(self.state, self.year)
 
-
-
-# will need another table with census data for each state -- or will need to use the percentage columns on the data I already have...
 
 
 

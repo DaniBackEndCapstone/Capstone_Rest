@@ -29,10 +29,10 @@ if __name__ == '__main__':
         # print(state, total_male_incarcerated)
 
         StateData.objects.create(
-            state = row[1],
-            total_female_supervised = row[4],
-            total_female_incarcerated = row[9],
-            total_male_supervised =  row[3],
-            total_male_incarcerated = row[8]
+            state=row[1],
+            total_female_supervised=row[4],
+            total_female_incarcerated=row[9],
+            total_male_supervised=row[3],
+            total_male_incarcerated=row[8]
         )
 

@@ -1,4 +1,5 @@
 import csv
+import sqlite3
 
 def get_prisoners_by_race_data_parse_into_lists(PrisonersUnderJurisdicitonOfStateOrFederalByRace2015):
     """
@@ -15,39 +16,30 @@ if __name__ == '__main__':
     iter_data = iter(get_prisoners_by_race_data_parse_into_lists(filename))
     next(iter_data)
 
+with sqlite3.connect("../../db.sqlite3") as db:
+    cursor = db.cursor()
+
     for row in iter_data:
-        state = row[0]
-        race_white = row[2]
-        race_black = row[3]
-        race_hispanic = row[4]
-        race_american_indian_alaska_native = row[5]
-        race_asian = row[6]
-        race_native_hawaiian_pacific_islander = row[7]
-        race_two_or_more = row[8]
-        race_other = row[9]
-        race_unknown = row[10]
+        state_or_territory = row[0]
+        race_white = int(row[2].replace(",", "").replace("/", "0").replace("~", "0"))
+        race_black = int(row[3].replace(",", "").replace("/", "0").replace("~", "0"))
+        race_hispanic = int(row[4].replace(",", "").replace("/", "0").replace("~", "0"))
+        race_american_indian_alaska_native = int(row[5].replace(",", "").replace("/", "0").replace("~", "0"))
+        race_asian = int(row[6].replace(",", "").replace("/", "0").replace("~", "0"))
+        race_native_hawaiian_pacific_islander = int(row[7].replace(",", "").replace("/", "0").replace("~", "0"))
+        race_two_or_more = int(row[8].replace(",", "").replace("/", "0").replace("~", "0"))
+        race_other = row[9].replace(",", "").replace("/", "0").replace("~", "0")
+        race_unknown = int(row[10].replace(",", "").replace("/", "0").replace("~", "0"))
 
-        # print(state, race_white)
-        # print(state, race_black)
-        # print(state, race_hispanic)
-        # print(state, race_american_indian_alaska_native)
-        # print(state, race_asian)
-        # print(state, race_native_hawaiian_pacific_islander)
-        # print(state, race_two_or_more)
-        # print(state, race_other)
-        # print(state, race_unknown)
+        print(state_or_territory, race_white, race_black, race_hispanic, race_american_indian_alaska_native, race_asian, race_native_hawaiian_pacific_islander, race_two_or_more, race_other, race_unknown)
+
+        cursor.execute("""
+            UPDATE capstone_api_statedata
+            SET race_white={}, race_black={}, race_hispanic={}, race_american_indian_alaska_native={}, race_asian={}, race_native_hawaiian_pacific_islander={}, race_two_or_more={}, race_other={}, race_unknown={}
+            WHERE state_or_territory='{}'
+                """.format(race_white, race_black, race_hispanic, race_american_indian_alaska_native, race_asian, race_native_hawaiian_pacific_islander, race_two_or_more, race_other, race_unknown, state_or_territory))
 
 
-        StateData.objects.create(
-            state=row[0],
-            race_white=row[2],
-            race_black=row[3],
-            race_hispanic=row[4],
-            race_american_indian_alaska_native=row[5],
-            race_asian=row[6],
-            race_native_hawaiian_pacific_islander=row[7],
-            race_two_or_more=row[8],
-            race_other=row[9],
-            race_unknown=row[10],
-        )
+
+
 

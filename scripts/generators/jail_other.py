@@ -1,4 +1,5 @@
 import csv
+# import sqlite3
 
 
 def get_jail_other_data_parse_into_lists(NumberOfPersonsIncarceratedByOtherAdultCorrectionalFacilites2015):
@@ -17,18 +18,7 @@ if __name__ == '__main__':
     next(iter_data)
 
     for row in iter_data:
-        # type_of_jail = row[0]
+        print(iter_data)
         total_other_prison = row[5]
-        # print(type_of_jail, total_in_other_2015)
+        print(total_other_prison)
 
-
-
-        # cursor.execute("""
-        #         UPDATE capstone_api_statedata
-
-        #         VALUES total_other_prison
-        #         WHERE State=state
-
-        #         state, total_private, total_local_jail)VALUES
-        #         (null, '{}', {}, {}
-        #         )""".format(state, total_private, total_local_jail))

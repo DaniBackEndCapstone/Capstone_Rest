@@ -22,18 +22,18 @@ if __name__ == '__main__':
         cursor = db.cursor()
 
         for row in iter_data:
-            state = row[1]
+            state_or_territory = row[1]
             total_private = int(row[3].replace(",", "").replace("/", "0"))
             total_local_jail = int(row[9].replace(",", "").replace("/", "0"))
 
-            print(state, total_private, total_local_jail)
+            print(state_or_territory, total_private, total_local_jail)
 
             cursor.execute("""
-                    INSERT INTO capstone_api_statedata (id, state, total_private, total_local_jail)VALUES
-                    (null, '{}', {}, {})
-                    """.format(state, total_private, total_local_jail))
+                    UPDATE capstone_api_statedata
+                    SET total_private={}, total_local_jail={}
+                    WHERE state_or_territory='{}'
+                        """.format(total_private, total_local_jail, state_or_territory))
 
 
-#update where state =
 
 

@@ -67,9 +67,17 @@ class StateData(models.Model):
     West_Virginia = 'West Virginia'
     Wisconsin = 'Wisconsin'
     Wyoming = 'Wyoming'
-    Federal_Totals = 'Federal Totals'
+    Federal = 'Federal Total'
+    US_Total = 'US Total'
+    Total = 'Total for Prisons'
+    State = 'State Total'
+    American_Samoa = 'American Samoa'
+    Guam = 'Guam'
+    Northern_Mariana_Islands = 'Northern Mariana Islands'
+    Puerto_Rico = 'Puerto Rico'
+    Virgin_Islands = 'Virgin Islands'
 
-    STATES = (
+    STATESTERRITORIES = (
         (Alabama, 'Alabama'),
         (Alaska, 'Alaska'),
         (Arizona, 'Arizona'),
@@ -121,22 +129,30 @@ class StateData(models.Model):
         (West_Virginia, 'West Virginia'),
         (Wisconsin, 'Wisconsin'),
         (Wyoming, 'Wyoming'),
-        (Federal_Totals, 'Federal Totals')
-    )
-
-    American_Samoa = 'American Samoa'
-    Guam = 'Guam'
-    Northern_Mariana_Islands = 'Northern Mariana Islands'
-    Puerto_Rico = 'Puerto Rico'
-    Virgin_Islands = 'Virgin Islands'
-
-    TERRITORIES = (
+        (Federal, 'Federal Total'),
+        (US_Total, 'US Total'),
+        (Total, 'Total for Prisons'),
+        (State, 'State Total'),
         (American_Samoa, 'American Samoa'),
         (Guam, 'Guam'),
         (Northern_Mariana_Islands, 'Northern Mariana Islands'),
         (Puerto_Rico, 'Puerto Rico'),
         (Virgin_Islands, 'Virgin Islands'),
     )
+
+    # American_Samoa = 'American Samoa'
+    # Guam = 'Guam'
+    # Northern_Mariana_Islands = 'Northern Mariana Islands'
+    # Puerto_Rico = 'Puerto Rico'
+    # Virgin_Islands = 'Virgin Islands'
+
+    # TERRITORIES = (
+    #     (American_Samoa, 'American Samoa'),
+    #     (Guam, 'Guam'),
+    #     (Northern_Mariana_Islands, 'Northern Mariana Islands'),
+    #     (Puerto_Rico, 'Puerto Rico'),
+    #     (Virgin_Islands, 'Virgin Islands'),
+    # )
 
     total_male_supervised = models.PositiveIntegerField(blank=True, null=True)
     total_female_supervised = models.PositiveIntegerField(blank=True, null=True)
@@ -152,8 +168,7 @@ class StateData(models.Model):
 
     year = models.IntegerField(choices=YEARS, blank=True, null=True)
 
-    state = models.CharField(choices=STATES, max_length=100, null=True, blank=True)
-    territory = models.CharField(choices=TERRITORIES, max_length=100, null=True, blank=True)
+    state_or_territory = models.CharField(choices=STATESTERRITORIES, max_length=100, null=True, blank=True)
 
     race_white = models.PositiveIntegerField(blank=True, null=True)
     race_black = models.PositiveIntegerField(blank=True, null=True)
@@ -166,7 +181,7 @@ class StateData(models.Model):
     race_unknown = models.PositiveIntegerField(blank=True, null=True)
 
     total_correction_pop = models.PositiveIntegerField(blank=True, null=True)
-    total_pop_inacrcerated = models.PositiveIntegerField(blank=True, null=True)
+    total_pop_incarcerated = models.PositiveIntegerField(blank=True, null=True)
 
     total_correction_pop_per_one_hundred_thou_residents_all = models.PositiveIntegerField(blank=True, null=True)
     total_pop_incarcerated_per_one_hundred_thou_residents_all = models.PositiveIntegerField(blank=True, null=True)

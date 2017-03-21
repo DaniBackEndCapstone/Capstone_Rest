@@ -56,8 +56,8 @@ class StateData(models.Model):
     Oregon = 'Oregon'
     Pennsylvania = 'Pennsylvania'
     Rhode_Island = 'Rhode Island'
-    South_Carolina = 'South_Carolina'
-    South_Dakota = 'South_Dakota'
+    South_Carolina = 'South Carolina'
+    South_Dakota = 'South Dakota'
     Tennessee = 'Tennessee'
     Texas = 'Texas'
     Utah = 'Utah'
@@ -67,8 +67,17 @@ class StateData(models.Model):
     West_Virginia = 'West Virginia'
     Wisconsin = 'Wisconsin'
     Wyoming = 'Wyoming'
+    Federal = 'Federal Total'
+    US_Total = 'US Total'
+    Total = 'Total for Prisons'
+    State = 'State Total'
+    American_Samoa = 'American Samoa'
+    Guam = 'Guam'
+    Northern_Mariana_Islands = 'Northern Mariana Islands'
+    Puerto_Rico = 'Puerto Rico'
+    Virgin_Islands = 'Virgin Islands'
 
-    STATES = (
+    STATESTERRITORIES = (
         (Alabama, 'Alabama'),
         (Alaska, 'Alaska'),
         (Arizona, 'Arizona'),
@@ -120,15 +129,10 @@ class StateData(models.Model):
         (West_Virginia, 'West Virginia'),
         (Wisconsin, 'Wisconsin'),
         (Wyoming, 'Wyoming'),
-    )
-
-    American_Samoa = 'American Samoa'
-    Guam = 'Guam'
-    Northern_Mariana_Islands = 'Northern Mariana Islands'
-    Puerto_Rico = 'Puerto Rico'
-    Virgin_Islands = 'Virgin Islands'
-
-    TERRITORIES = (
+        (Federal, 'Federal Total'),
+        (US_Total, 'US Total'),
+        (Total, 'Total for Prisons'),
+        (State, 'State Total'),
         (American_Samoa, 'American Samoa'),
         (Guam, 'Guam'),
         (Northern_Mariana_Islands, 'Northern Mariana Islands'),
@@ -136,16 +140,52 @@ class StateData(models.Model):
         (Virgin_Islands, 'Virgin Islands'),
     )
 
-    total_male = models.PositiveIntegerField(default=0)
-    total_female = models.PositiveIntegerField(default=0)
-    total_private = models.PositiveIntegerField(default=0)
-    total_local_jails = models.PositiveIntegerField(default=0)
-    total_other_prison = models.PositiveIntegerField(default=0, null=True)
-    total_non_citizen = models.PositiveIntegerField(default=0)
-    total_minor = models.PositiveIntegerField(default=0)
-    year = models.IntegerField(choices=YEARS)
-    state = models.CharField(choices=STATES, max_length=100, null=True)
-    territory = models.CharField(choices=TERRITORIES, max_length=100, null=True)
+    # American_Samoa = 'American Samoa'
+    # Guam = 'Guam'
+    # Northern_Mariana_Islands = 'Northern Mariana Islands'
+    # Puerto_Rico = 'Puerto Rico'
+    # Virgin_Islands = 'Virgin Islands'
+
+    # TERRITORIES = (
+    #     (American_Samoa, 'American Samoa'),
+    #     (Guam, 'Guam'),
+    #     (Northern_Mariana_Islands, 'Northern Mariana Islands'),
+    #     (Puerto_Rico, 'Puerto Rico'),
+    #     (Virgin_Islands, 'Virgin Islands'),
+    # )
+
+    total_male_supervised = models.PositiveIntegerField(blank=True, null=True)
+    total_female_supervised = models.PositiveIntegerField(blank=True, null=True)
+    total_male_incarcerated = models.PositiveIntegerField(blank=True, null=True)
+    total_female_incarcerated = models.PositiveIntegerField(blank=True, null=True)
+
+    total_private = models.PositiveIntegerField(blank=True, null=True)
+    total_local_jail = models.PositiveIntegerField(blank=True, null=True)
+    total_other_prison = models.PositiveIntegerField(blank=True, null=True)
+
+    total_noncitizen = models.PositiveIntegerField(blank=True, null=True)
+    total_minor = models.PositiveIntegerField(blank=True, null=True)
+
+    year = models.IntegerField(choices=YEARS, blank=True, null=True)
+
+    state_or_territory = models.CharField(choices=STATESTERRITORIES, max_length=100, null=True, blank=True)
+
+    race_white = models.PositiveIntegerField(blank=True, null=True)
+    race_black = models.PositiveIntegerField(blank=True, null=True)
+    race_hispanic = models.PositiveIntegerField(blank=True, null=True)
+    race_american_indian_alaska_native = models.PositiveIntegerField(blank=True, null=True)
+    race_asian = models.PositiveIntegerField(blank=True, null=True)
+    race_native_hawaiian_pacific_islander = models.PositiveIntegerField(blank=True, null=True)
+    race_two_or_more = models.PositiveIntegerField(blank=True, null=True)
+    race_other = models.PositiveIntegerField(blank=True, null=True)
+    race_unknown = models.PositiveIntegerField(blank=True, null=True)
+
+    total_correction_pop = models.PositiveIntegerField(blank=True, null=True)
+    total_pop_incarcerated = models.PositiveIntegerField(blank=True, null=True)
+
+    total_correction_pop_per_one_hundred_thou_residents_all = models.PositiveIntegerField(blank=True, null=True)
+    total_pop_incarcerated_per_one_hundred_thou_residents_all = models.PositiveIntegerField(blank=True, null=True)
+
 
     class Meta:
         verbose_name_plural = 'State Data'
@@ -153,9 +193,6 @@ class StateData(models.Model):
     def __str__(self):
         return '{} {}'.format(self.state, self.year)
 
-
-
-# will need another table with census data for each state -- or will need to use the percentage columns on the data I already have...
 
 
 

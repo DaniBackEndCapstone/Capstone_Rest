@@ -169,6 +169,7 @@ class StateData(models.Model):
     year = models.IntegerField(choices=YEARS, blank=True, null=True)
 
     state_or_territory = models.CharField(choices=STATESTERRITORIES, max_length=100, null=True, blank=True)
+    abbreviation = models.CharField(null=True, blank=True, max_length=5)
 
     race_white = models.PositiveIntegerField(blank=True, null=True)
     race_black = models.PositiveIntegerField(blank=True, null=True)
